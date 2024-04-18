@@ -1,3 +1,7 @@
+// The First Come First Serve (FCFS) scheduling algorithm executes processes in the order they arrive in the ready queue.
+// It uses a simple queue data structure to maintain the order of process arrival.
+// FCFS is non-preemptive, meaning once a process starts executing, it continues until it finishes or blocks.
+
 #include <iostream>
 #include <vector>
 
