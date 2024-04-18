@@ -1,3 +1,7 @@
+// The Banker's Algorithm is a deadlock avoidance algorithm used in resource allocation.
+// It checks if allocating resources to a process will result in a safe state (no deadlock) by simulating resource allocation.
+// The algorithm maintains a copy of the current state and checks if there is a safe sequence of processes to execute.
+
 #include <iostream>
 #include <vector>
 
