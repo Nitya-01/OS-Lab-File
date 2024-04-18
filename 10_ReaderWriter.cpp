@@ -1,3 +1,7 @@
+// The Reader-Writer Problem is a classic synchronization problem where multiple readers can read a shared resource simultaneously, but exclusive access is required for writing.
+// This implementation uses semaphores to control access to the shared resource, ensuring that readers can access it concurrently while writers have exclusive access.
+// Semaphores are used to manage the number of readers accessing the resource and to ensure mutual exclusion for writers.
+
 #include <iostream>
 #include <thread>
 #include <semaphore.h>
