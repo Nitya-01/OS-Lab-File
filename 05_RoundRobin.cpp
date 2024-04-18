@@ -1,3 +1,7 @@
+// The Round Robin scheduling algorithm allocates a fixed time quantum to each process for execution.
+// It uses a circular queue data structure to handle the scheduling of processes.
+// When a process finishes its time quantum, it is moved to the end of the ready queue, and the next process in the queue is selected for execution.
+
 #include <iostream>
 #include <vector>
 #include <queue>
