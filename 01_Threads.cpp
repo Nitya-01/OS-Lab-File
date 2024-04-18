@@ -1,14 +1,16 @@
-#include<stdio.h>
-#include<unistd.h>
-#include<pthread.h>
+#include <iostream>
+#include <unistd.h>
+#include <pthread.h>
+
+using namespace std;
 
 // Function executed by the thread
 void *thread_fun(void *arg) {
-    printf("Inside thread function\n");
+    cout << "Inside thread function" << endl;
     
     // Print numbers from 0 to 4 with a delay of 1 second
     for(int j = 0; j < 5; j++) {
-        printf("%d\n", j);
+        cout << j << endl;
         sleep(1);
     }
     
@@ -25,11 +27,11 @@ int main() {
     // Wait for the thread to finish (comment out to see the difference)
     pthread_join(thread1, NULL);
     
-    printf("Back to the main process\n");
+    cout << "Back to the main process" << endl;
     
     // Print numbers from 15 to 19 with a delay of 1 second
     for(int i = 15; i < 20; i++) {
-        printf("%d\n", i);
+        cout << i << endl;
         sleep(1);
     }
     
