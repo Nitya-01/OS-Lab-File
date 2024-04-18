@@ -1,3 +1,7 @@
+// Demonstrates the creation of a child process using the fork() system call in C++ programming.
+// The fork() system call creates a new process (child) which is a copy of the calling process (parent).
+// Both the parent and child processes continue execution from the point of the fork() call, but they have separate memory spaces.
+
 #include <iostream>
 #include <unistd.h> // Required for fork() and getpid()
 
