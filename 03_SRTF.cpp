@@ -1,3 +1,7 @@
+// The Shortest Remaining Time First (SRTF) scheduling algorithm is a preemptive version of SJF.
+// It continuously checks for the shortest remaining time among the ready processes and switches execution 
+// to the one with the shortest remaining time if a new process arrives with a shorter burst time.
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
