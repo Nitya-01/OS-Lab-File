@@ -1,3 +1,7 @@
+// Dekker's Algorithm provides a solution to the critical section problem by allowing only one process to enter its critical section at a time.
+// It uses semaphores to synchronize access to shared resources between multiple processes.
+// The algorithm ensures mutual exclusion, progress, and bounded waiting without using busy-waiting.
+
 #include <iostream>
 #include <thread>
 #include <semaphore.h>
