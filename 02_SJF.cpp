@@ -1,3 +1,7 @@
+// The Shortest Job First (SJF) scheduling algorithm selects the process with the shortest burst time from the ready queue for execution.
+// It sorts processes based on their burst times and selects the one with the shortest burst time for execution.
+// SJF can be preemptive (Shortest Remaining Time First) or non-preemptive, depending on whether it can interrupt a currently executing process.
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
