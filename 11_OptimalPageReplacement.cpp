@@ -1,3 +1,7 @@
+// The Optimal Page Replacement algorithm, also known as Belady's Algorithm, replaces the page that will not be used for the longest period of time in the future.
+// It uses an array to represent page frames and another array to store the future positions of each page in the reference string.
+// The algorithm scans the reference string to predict future page accesses and determines which page to replace based on the longest time until the page is accessed again.
+
 #include <iostream>
 #include <unordered_map>
 
