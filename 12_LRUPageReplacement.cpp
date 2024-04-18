@@ -1,3 +1,7 @@
+// The Least Recently Used (LRU) Page Replacement algorithm replaces the page that has not been used for the longest period of time.
+// It uses a doubly linked list to maintain the order of page accesses and a map to store the positions of pages in the list.
+// When a page needs to be replaced, the algorithm selects the page at the tail of the linked list, which represents the least recently used page.
+
 #include <iostream>
 using namespace std;
 
