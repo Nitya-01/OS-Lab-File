@@ -1,3 +1,8 @@
+// Demonstrates how to create and join threads using the POSIX Threads (pthread) library in C++.
+// Threads allow concurrent execution of multiple tasks within the same process.
+// The pthread_create() function creates a new thread that executes a specified function (thread_fun) concurrently with the main thread.
+// The pthread_join() function waits for the specified thread to terminate before continuing execution of the main thread.
+
 #include <iostream>
 #include <unistd.h>
 #include <pthread.h>
