@@ -1,3 +1,7 @@
+// The Priority Scheduling algorithm assigns a priority to each process, and the process with the highest priority is selected for execution.
+// It uses a priority queue or sorting mechanism to prioritize processes based on their priorities.
+// Priority can be defined based on various factors such as process importance, deadline, or other criteria.
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
