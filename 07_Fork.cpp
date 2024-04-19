@@ -15,12 +15,13 @@ int main() {
 
     if (pid < 0) {
         // Fork failed
-        cerr << "Fork failed!" << endl;
+        cout << "Fork failed!" << endl;
         return 1;
     } else if (pid == 0) {
         // Child process
         cout << "This is the child process." << endl;
         cout << "Child process ID: " << getpid() << endl;
+        cout << "My Parent process ID: " << getppid() << endl;
     } else {
         // Parent process
         cout << "This is the parent process." << endl;
