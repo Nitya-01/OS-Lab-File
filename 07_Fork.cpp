@@ -26,7 +26,7 @@ int main() {
         // Parent process
         cout << "This is the parent process." << endl;
         cout << "Parent process ID: " << getpid() << endl;
-        cout << "Child process ID: " << pid << endl;
+        cout << "My Child process ID: " << pid << endl;
     }
 
     return 0;
